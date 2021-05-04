@@ -18,7 +18,7 @@ spec:
           hostPath:
             path: /var/run/docker.sock
       containers:
-        - image: kumargaurav522/docker_cleanup:latest
+        - image: kumar/docker_cleanup:latest
           name: images-garbage-cleaner
           volumeMounts:
             - mountPath: /var/run/docker.sock
